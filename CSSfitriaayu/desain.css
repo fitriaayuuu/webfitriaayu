@@ -1,0 +1,139 @@
+/* pengaturan body*/
+body {
+	background-color 	: black;
+	text-align			: center;
+	font-family			: Verdana, Tahoma, Helvetica;
+	font-size			: 13px;
+	color               : maroon;
+}
+
+img{
+	width: 480px;
+	height: 320px;
+	border: 5px solid brown;
+	padding: 10px;
+	margin: 20px;
+}
+
+
+video {
+	width : 720px;
+	height : 480px;
+	
+}
+div{
+	width: 1000px;
+	margin: 10px;
+	padding: 10px;	
+	
+}
+
+/* pengaturan layout utama */
+#layout {
+	background			: #B0E0E6;
+	width 				: 1080px;
+	margin				: auto;
+	text-align 			: left;
+	padding 			: 5px;
+	border				: 5px solid black;
+}
+#header{
+	width 				: 95.5%;
+	height 				: 150px;
+	background-color	: #FAEBD7;
+	position 			: relative;
+	font-size			: 40px;
+	font-weight `		: bold;
+	border				: 5px solid black;
+}
+#header h1{
+	color				:#CD5C5C;
+	text-align			:center;
+	font-family			:Lucida Calligraphy;
+	font-size			:50px;
+}
+.header {
+	width				: 80%;
+	height				: 100px;
+}
+.judul{
+	width				: 95.5%;
+	height				: auto;
+	text-align			: center;
+	font-size			: 30px;
+	font-weight			: bold;
+	border				: 5px solid black;
+	background-color	: #FAEBD7;
+}
+
+
+/*pengaturan menu*/
+#menu{
+	width				: 95.5%;
+	height				: 40px;
+	background-color	: maroon;
+	position			: relative;
+	border				: 5px solid black;
+}
+/*pengaturan menu*/
+#menu ul {
+	margin 				: 0;
+	padding 			: 0;
+	list-style 			: none;
+}
+
+#menu ul li {
+	float 				: left;
+}
+
+#menu ul li a {
+	float 				: left;
+	color 				: #d4d4d4;
+	padding 			: 12px 20px;
+	text-decoration 	: none;
+	background 			: maroon;
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu ul li a:hover {
+	color 				: white;
+	background 			: #3C4042;
+}
+
+#content {
+	width				: 95.5%;
+	font-size 			: 20px;
+	font-family			: Bookman Old Style, serif;
+	color				: maroon;
+	text-align			: center;
+}
+.tulisan{
+	text-align			: left;
+	font-size			: 25px;
+}
+
+form {
+	text-align			: left;
+	padding				: 10px;
+}
+table{
+	width				: 100%;
+	text-align			: center;
+	padding				: 10px;
+	border				: 5px solid black;
+ }
+table th{
+	border				: 2px solid black;
+	background-color	: yellow;
+}
+table tr{
+	border				: 2px solid black;
+}
+table td{
+	border				: 2px solid black;
+	background-color 	: pink;
+}
+#media {
+	text-align			:center;
+}

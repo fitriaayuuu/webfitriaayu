@@ -1,0 +1,52 @@
+<html>
+	<head>
+	<title>Formulir</title>
+	<link rel="stylesheet" href="desain.css">
+	</head>
+	<body bg background = "image/awann.jpg">
+	<div id="layout">
+		<div id="header">
+		<h1>Fitria Ayu Rahmawati</h1> <!--komen netijen-->
+		</div>
+			<div id ="menu">
+			<ul>
+				<li><a href="Bio1.html">Biodata</a></li>
+				<li><a href="Bio2.html">Details</a></li>
+				<li><a href="Sks.html">SKS</a></li>
+				<li><a href="form.html">Form</a></li>
+				<li><a href="galerii.html">Galeri</a></li>
+			</ul>
+			</div>
+		<div class="judul">
+			FORMULIR PENDAFTARAN
+		</div>
+		<div id="content">
+			<form action="form.php" method="get">
+		Nama : <input type="text" name="nama" /></br></br>
+		Password : <input type="password" name="password" /></br></br>
+		Jenis Kelamin : 
+			<input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+			<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+		</br>
+		Keahlian : 
+			<input type="checkbox" name="keahlian"  value="Menari" /> Menari
+			<input type="checkbox" name="keahlian"  value="Bernyanyi" checked /> Bernyanyi
+			<input type="checkbox" name="keahlian"  value="Berenang" /> Berenang
+		</br></br>
+		Asal Kota :
+			<select name="kota_asal" >
+				<option value="Kota Jakarta"> Jakarta</option>
+				<option value="Kota Bandung">Bandung</option>
+				<option value="Kota Semarang" selected>Semarang</option>
+			</select>
+		</br>
+		</br>
+		Deskripsi diri :
+		</br>
+		<textarea name="deskripsi" rows="5" cols="30"> </textarea>
+		</br></br>
+			<input type="submit" value="Save">
+			<input type="reset" value="Reset">
+		</form>
+	</body>
+</html>

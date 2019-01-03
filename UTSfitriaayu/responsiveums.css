@@ -1,0 +1,100 @@
+/*RESPONSIVE*/
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px) {
+
+	body{
+		float			: none;
+		width 			: auto;
+		height			: auto;
+	}
+	
+	#layout {
+		float			: none;
+		width 			: auto;
+		height			: auto;
+	}
+	
+	#header{
+		width 			: auto;
+		float			: none;
+		height			: 55px;
+		font-size		: 12px;
+	}
+
+	#menu{
+		width			: auto;
+		height			: 60px;
+		float			: none;
+	}
+	
+	#menu ul li a {
+	float 				: left;
+	color 				: lightyellow;
+	padding 			: 5px 10px;
+	padding-bottom		: 5px;
+	text-decoration 	: none;
+	background 			: #483D8B;
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+	}
+
+.pengumuman{
+		width			: auto;
+		height			: auto;
+		border			: 1px solid #dedede;
+		padding			: 100px;
+		margin			: 5px;
+		float			: left;
+		background-color: #F0F8FF;
+}
+
+.tulisan{
+	width				: auto;
+	height				: auto;
+	text-align			: left;
+	font-size			: 15px;
+}
+
+#isi {
+	width				: auto;
+	height				: auto;
+	float				: none;
+	font-size 			: 15px;
+}
+
+#isi2 {
+	width				: auto;
+	height				: auto;
+	float				: none;
+	font-size 			: 15px;
+}
+#ttgums{
+	width				: auto;
+}
+
+}
+/* untuk ukuran layar 480px kebawah */
+@media screen and (max-width: 480px){
+	#menu{
+		width			: auto;
+		height			: 90px;
+		float			: none;
+	}
+	.imgums{
+		width			: 360px;
+		height			: 280px;
+	}
+}
+/* untuk ukuran layar 320px kebawah */
+@media screen and (max-width: 320px){
+	#menu{
+		width			: auto;
+		height			: 150px;
+		float			: none;
+	}
+	.imgums{
+		width			: 230px;
+		height			: 160px;
+	}
+}
